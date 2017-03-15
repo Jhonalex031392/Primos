@@ -26,7 +26,9 @@ public class Primos {
                 }
             }
  
-            
+            if (Primo) {
+                System.out.println("Numero primo "+i);
+            }
         }
     }
     
