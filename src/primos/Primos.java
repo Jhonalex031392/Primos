@@ -17,19 +17,7 @@ public class Primos {
         int b = 542;
         boolean Primo;
  
-        for (int i = a; i <= b; i++) {
-            Primo = true;
- 
-            for (int j = 2; j <= Math.sqrt(i) && Primo; j++) {
-                if (i % j == 0) {
-                    Primo = false;
-                }
-            }
- 
-            if (Primo) {
-                System.out.println("Numero primo "+i);
-            }
-        }
+        
     }
     
 }
