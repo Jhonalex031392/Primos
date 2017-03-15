@@ -20,6 +20,12 @@ public class Primos {
         for (int i = a; i <= b; i++) {
             Primo = true;
  
+            for (int j = 2; j <= Math.sqrt(i) && Primo; j++) {
+                if (i % j == 0) {
+                    Primo = false;
+                }
+            }
+ 
             
         }
     }
