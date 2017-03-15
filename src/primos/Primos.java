@@ -17,7 +17,11 @@ public class Primos {
         int b = 542;
         boolean Primo;
  
-        
+        for (int i = a; i <= b; i++) {
+            Primo = true;
+ 
+            
+        }
     }
     
 }
